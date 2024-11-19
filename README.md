@@ -1,2 +1,1 @@
-# public
-yippee
+# yippee
