@@ -120,7 +120,7 @@ function module.custom_print(...)
 
             if logData.img then
                 logData.img.Image = custom_print.image
-                --logData.img.ImageColor3 = custom_print.color
+                logData.img.ImageColor3 = Color3.fromRGB(255,255,255)
             end
         else
             for _, newlog in pairs(ClientLog:GetChildren()) do
